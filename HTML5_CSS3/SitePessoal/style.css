@@ -1,6 +1,8 @@
 body{
     background: gray;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -38,9 +40,11 @@ a{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
 }
 .foto{
     border-radius: 50%;

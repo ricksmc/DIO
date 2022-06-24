@@ -23,9 +23,11 @@
         .o2{order: 2;}
         .o3{order: 3;}
         .o4{order: 4;}
+        .direction{flex-direction: column;}
     </style>
 </head>
 <body>
+    <h1>Linha</h1>
     <p>Order: sem aplicação do order</p>
     <div class="flex-container">
         <div class="item">A</div>
@@ -35,6 +37,21 @@
     </div>
     <p>Order: com aplicação do order</p>
     <div class="flex-container">
+        <div class="item o3">A</div>
+        <div class="item o2">B</div>
+        <div class="item o4">C</div>
+        <div class="item o1">D</div>
+    </div>
+    <h1>Coluna</h1>
+    <p>Order: sem aplicação do order</p>
+    <div class="flex-container direction">
+        <div class="item ">A</div>
+        <div class="item ">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+    </div>
+    <p>Order: com aplicação do order</p>
+    <div class="flex-container direction">
         <div class="item o3">A</div>
         <div class="item o2">B</div>
         <div class="item o4">C</div>
